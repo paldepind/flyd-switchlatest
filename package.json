@@ -1,0 +1,30 @@
+{
+  "name": "flyd-switchlatest",
+  "version": "0.0.1",
+  "description": "Maps a function that returns a stream over a stream. The result stream reflects changes from the last returned stream only",
+  "main": "switchlatest.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paldepind/flyd-switchlatest.git"
+  },
+  "keywords": [
+    "flyd",
+    "swith",
+    "switchlatest"
+  ],
+  "author": "Simon Friis Vindum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paldepind/flyd-switchlatest/issues"
+  },
+  "homepage": "https://github.com/paldepind/flyd-switchlatest#readme",
+  "dependencies": {
+    "flyd": "^0.1.4"
+  }
+}
