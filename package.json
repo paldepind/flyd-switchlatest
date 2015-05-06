@@ -1,7 +1,7 @@
 {
   "name": "flyd-switchlatest",
   "version": "0.0.1",
-  "description": "Maps a function that returns a stream over a stream. The result stream reflects changes from the last returned stream only",
+  "description": "Flattens a stream of streams. The result stream reflects changes from the last returned stream only",
   "main": "switchlatest.js",
   "directories": {
     "test": "test"
